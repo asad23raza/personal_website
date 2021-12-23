@@ -1,0 +1,81 @@
+html {
+  background-color: #25274D;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  color:#AAABB8;
+  font-style: Georgia;
+  font-size: 200px;
+  justify-content: center;
+  margin-bottom: -120px;
+  margin-top: -100px;
+}
+.forname{
+  color:#AAABB8;
+  font-style: Georgia;
+  font-size: 100px;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  background-color: #29648A;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+}
+li{
+  border: 1px solid black;
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #2E9CCA;
+}
+.asad {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+.i{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-style: Georgia;
+  margin-top: 10px;
+}
+.proj{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-top: 75px;
+  margin-bottom: 60px;
+  text-decoration: none;
+}
+span{
+  background-color: #2E9CCA;
+  padding: 25px;
+  transition: transform .2s;
+}
+span:hover {
+  background-color: #464866;
+  transform: scale(1.5);
+}
+.mylogo{
+  margin: 0 auto;
+}
+a:link {
+  color: inher;
+  text-decoration: inherit; /* no underline */
+}
+a:hover {
+  color: hotpink;
+}
